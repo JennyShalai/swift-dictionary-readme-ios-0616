@@ -1,8 +1,8 @@
 var favoriteWords = [
-    "rigmarole": "a lengthy and complicated procedure",
-    "gobbledygook": "language that is meaningless; nonsense",
-    "lollygag": "spend time aimlessly",
-    "wabbit": "weary, exhausted",
+    "rigmarole"     : "a lengthy and complicated procedure",
+    "gobbledygook"  : "language that is meaningless; nonsense",
+    "lollygag"      : "spend time aimlessly",
+    "wabbit"        : "weary, exhausted",
 ]
 
 var numberWords = [1: "one"]
@@ -24,7 +24,9 @@ if let definition = nonexistentDefinition {
 }
 
 favoriteWords["strategery"] = "strategy"
+
 definition = favoriteWords["strategery"]
 
 favoriteWords["strategery"] = nil
+
 print(favoriteWords)
